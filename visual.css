@@ -1,0 +1,200 @@
+.pag1 div{
+    width: 50px;
+    height: 50px;
+    color: red;
+    border: 3px solid crimson;
+}
+
+.div1{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    
+}
+
+.div2{
+    position: absolute;
+    right: 30px;
+    top: 30px;   
+}
+
+.div3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+input{
+    width:50px;
+    height:50px;
+}
+
+.div4{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    
+}
+
+.div5{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    
+}
+
+
+.botao1{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    top:50%;
+    left:25%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.botao2{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.botao3{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    top:50%;
+    left:75%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.pag2{
+    background:lightseagreen;
+}
+
+.pag2 h1{
+    text-align: center;
+}
+.pag2 p{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.parte1{
+    width: 960px;
+    margin:auto;
+    padding:3px;
+    background:lightblue;
+    border: 3px solid aquamarine;
+    overflow: auto;
+}
+.parte1 img{
+    float:left;
+    
+}
+.parte1 p{
+    width: 650px;
+    float: right;
+}
+
+.parte2{
+    width: 960px;
+    margin:10px auto;
+    padding:3px;
+    background:lightblue;
+    border: 3px dashed aquamarine;
+    overflow: auto;
+}
+
+.parte2 p{
+    width: 650px;
+    float: left; 
+}
+
+.parte2 img{
+    margin: 30px;
+}
+.parte2 div{
+    width: 285px;
+    height: 285px;
+    background: red;
+    float: right;
+}
+
+.parte3{
+    width: 960px;
+    margin:10px auto;
+    padding:3px;
+    background:lightblue;
+    border: 3px dashed aquamarine;
+    overflow: auto;
+}
+
+.parte3 a{
+    float:right;
+    margin: 3px;
+}
+
+
+.img1{
+    float: left;
+    margin: 5px;
+}
+
+.img2{
+    float: right;
+    margin: 5px;
+}
+
+.p1{
+    width:600px
+    
+}
+
+.pag3{
+    margin:auto;
+    width:1920px;
+    height:900px;
+}
+.divcor1{
+    width:1920px;
+    height:200px;
+    background: cornflowerblue;
+}
+
+.divcor2{
+    width: 220px;
+    height: 700px;
+    background: coral;
+    float: left;
+}
+
+.divcor3{
+    width: 1700px;
+    height: 700px;
+    background: darkgoldenrod;
+    margin-left:220px;
+}
+
+.divcor4{
+
+    width:1920px;
+    height:100px;
+    background:bisque;
+}
+
+.voltar{
+    position: fixed;
+    bottom: 2px;
+    right: 2px;
+    width:50px;
+}
